@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44263FC61EEA879B003ABB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44263FC51EEA879B003ABB8A /* AppDelegate.swift */; };
+		44263FC81EEA879B003ABB8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44263FC71EEA879B003ABB8A /* ViewController.swift */; };
+		44263FCB1EEA879B003ABB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44263FC91EEA879B003ABB8A /* Main.storyboard */; };
+		44263FCD1EEA879B003ABB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44263FCC1EEA879B003ABB8A /* Assets.xcassets */; };
+		44263FD01EEA879B003ABB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44263FCE1EEA879B003ABB8A /* LaunchScreen.storyboard */; };
+		445D3E131F131E2700042FCE /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D3E081F131DEC00042FCE /* Starscream.framework */; };
+		445D3E141F131E2700042FCE /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 445D3E081F131DEC00042FCE /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44A1E49F1EFA425E00ECED43 /* FaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E49E1EFA425E00ECED43 /* FaceData.swift */; };
+		44C25CFC1EEE6E8800138ADB /* squarePNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25CFB1EEE6E8800138ADB /* squarePNG.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445D3E071F131DEC00042FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		445D3E091F131DEC00042FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = "Starscream iOSTests";
+		};
+		445D3E0B1F131DEC00042FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = "Starscream OSX";
+		};
+		445D3E0D1F131DEC00042FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = "Starscream OSXTests";
+		};
+		445D3E0F1F131DEC00042FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277971BD673A70003036D;
+			remoteInfo = "Starscream tvOS";
+		};
+		445D3E111F131DEC00042FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277A01BD673A70003036D;
+			remoteInfo = "Starscream tvOSTests";
+		};
+		445D3E151F131E2700042FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44B66D9F1EF78E160060F6E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				445D3E141F131E2700042FCE /* Starscream.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44263FC21EEA879B003ABB8A /* FaceDetector3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetector3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44263FC51EEA879B003ABB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44263FC71EEA879B003ABB8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44263FCA1EEA879B003ABB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44263FCC1EEA879B003ABB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44263FCF1EEA879B003ABB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44263FD11EEA879B003ABB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = Starscream/Starscream.xcodeproj; sourceTree = SOURCE_ROOT; };
+		44A1E49E1EFA425E00ECED43 /* FaceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceData.swift; sourceTree = "<group>"; };
+		44C25CFB1EEE6E8800138ADB /* squarePNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squarePNG.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44263FBF1EEA879B003ABB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D3E131F131E2700042FCE /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44263FB91EEA879B003ABB8A = {
+			isa = PBXGroup;
+			children = (
+				44263FC41EEA879B003ABB8A /* FaceDetector3 */,
+				44263FC31EEA879B003ABB8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44263FC31EEA879B003ABB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44263FC21EEA879B003ABB8A /* FaceDetector3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44263FC41EEA879B003ABB8A /* FaceDetector3 */ = {
+			isa = PBXGroup;
+			children = (
+				445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */,
+				44C25CFB1EEE6E8800138ADB /* squarePNG.png */,
+				44263FC51EEA879B003ABB8A /* AppDelegate.swift */,
+				44263FC71EEA879B003ABB8A /* ViewController.swift */,
+				44263FC91EEA879B003ABB8A /* Main.storyboard */,
+				44263FCC1EEA879B003ABB8A /* Assets.xcassets */,
+				44263FCE1EEA879B003ABB8A /* LaunchScreen.storyboard */,
+				44263FD11EEA879B003ABB8A /* Info.plist */,
+				44A1E49E1EFA425E00ECED43 /* FaceData.swift */,
+			);
+			path = FaceDetector3;
+			sourceTree = "<group>";
+		};
+		445D3DFF1F131DEC00042FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445D3E081F131DEC00042FCE /* Starscream.framework */,
+				445D3E0A1F131DEC00042FCE /* Starscream iOSTests.xctest */,
+				445D3E0C1F131DEC00042FCE /* Starscream.framework */,
+				445D3E0E1F131DEC00042FCE /* Starscream OSXTests.xctest */,
+				445D3E101F131DEC00042FCE /* Starscream.framework */,
+				445D3E121F131DEC00042FCE /* Starscream tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44263FC11EEA879B003ABB8A /* FaceDetector3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44263FD41EEA879B003ABB8A /* Build configuration list for PBXNativeTarget "FaceDetector3" */;
+			buildPhases = (
+				44263FBE1EEA879B003ABB8A /* Sources */,
+				44263FBF1EEA879B003ABB8A /* Frameworks */,
+				44263FC01EEA879B003ABB8A /* Resources */,
+				44B66D9F1EF78E160060F6E0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445D3E161F131E2700042FCE /* PBXTargetDependency */,
+			);
+			name = FaceDetector3;
+			productName = FaceDetector3;
+			productReference = 44263FC21EEA879B003ABB8A /* FaceDetector3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44263FBA1EEA879B003ABB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jung SeungWoo";
+				TargetAttributes = {
+					44263FC11EEA879B003ABB8A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5NM9R4DWD7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 44263FBD1EEA879B003ABB8A /* Build configuration list for PBXProject "FaceDetector3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44263FB91EEA879B003ABB8A;
+			productRefGroup = 44263FC31EEA879B003ABB8A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 445D3DFF1F131DEC00042FCE /* Products */;
+					ProjectRef = 445D3DFE1F131DEC00042FCE /* Starscream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				44263FC11EEA879B003ABB8A /* FaceDetector3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		445D3E081F131DEC00042FCE /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 445D3E071F131DEC00042FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		445D3E0A1F131DEC00042FCE /* Starscream iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream iOSTests.xctest";
+			remoteRef = 445D3E091F131DEC00042FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		445D3E0C1F131DEC00042FCE /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 445D3E0B1F131DEC00042FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		445D3E0E1F131DEC00042FCE /* Starscream OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream OSXTests.xctest";
+			remoteRef = 445D3E0D1F131DEC00042FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		445D3E101F131DEC00042FCE /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 445D3E0F1F131DEC00042FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		445D3E121F131DEC00042FCE /* Starscream tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream tvOSTests.xctest";
+			remoteRef = 445D3E111F131DEC00042FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44263FC01EEA879B003ABB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44263FD01EEA879B003ABB8A /* LaunchScreen.storyboard in Resources */,
+				44263FCD1EEA879B003ABB8A /* Assets.xcassets in Resources */,
+				44C25CFC1EEE6E8800138ADB /* squarePNG.png in Resources */,
+				44263FCB1EEA879B003ABB8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44263FBE1EEA879B003ABB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44263FC81EEA879B003ABB8A /* ViewController.swift in Sources */,
+				44A1E49F1EFA425E00ECED43 /* FaceData.swift in Sources */,
+				44263FC61EEA879B003ABB8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445D3E161F131E2700042FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream iOS";
+			targetProxy = 445D3E151F131E2700042FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44263FC91EEA879B003ABB8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44263FCA1EEA879B003ABB8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44263FCE1EEA879B003ABB8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44263FCF1EEA879B003ABB8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44263FD21EEA879B003ABB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44263FD31EEA879B003ABB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44263FD51EEA879B003ABB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NM9R4DWD7;
+				INFOPLIST_FILE = FaceDetector3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiramekiHIghSchool.FaceDetector3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		44263FD61EEA879B003ABB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NM9R4DWD7;
+				INFOPLIST_FILE = FaceDetector3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiramekiHIghSchool.FaceDetector3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44263FBD1EEA879B003ABB8A /* Build configuration list for PBXProject "FaceDetector3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44263FD21EEA879B003ABB8A /* Debug */,
+				44263FD31EEA879B003ABB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44263FD41EEA879B003ABB8A /* Build configuration list for PBXNativeTarget "FaceDetector3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44263FD51EEA879B003ABB8A /* Debug */,
+				44263FD61EEA879B003ABB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44263FBA1EEA879B003ABB8A /* Project object */;
+}

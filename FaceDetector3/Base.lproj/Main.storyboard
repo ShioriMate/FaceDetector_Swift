@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FaceDetector3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rzT-OM-nM2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pdY-ld-sHM">
+                                <rect key="frame" x="0.0" y="0.0" width="94" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="G3i-qa-Rwy">
+                                <rect key="frame" x="10" y="530" width="90" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="N2L-6B-LYb"/>
+                                    <constraint firstAttribute="height" constant="28" id="O6I-4I-psJ"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Back"/>
+                                    <segment title="Front"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onClickSwitchCameraWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="mwj-XK-t6S"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="urR-PD-Yb0">
+                                <rect key="frame" x="220" y="530" width="90" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="mPX-QC-ISs"/>
+                                    <constraint firstAttribute="width" constant="90" id="t7y-Gf-CHI"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Celeb"/>
+                                    <segment title="Name"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onClickSwitchCheckStyleWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="aln-A5-CSu"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="G3i-qa-Rwy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="DtF-CY-4A7"/>
+                            <constraint firstItem="rzT-OM-nM2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SVo-jv-cR7"/>
+                            <constraint firstAttribute="trailing" secondItem="rzT-OM-nM2" secondAttribute="trailing" id="WBb-AT-XzD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="G3i-qa-Rwy" secondAttribute="bottom" constant="10" id="WXA-B1-PMT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="urR-PD-Yb0" secondAttribute="bottom" constant="10" id="gsd-Ay-YKm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rzT-OM-nM2" secondAttribute="bottom" id="icv-K1-9T3"/>
+                            <constraint firstItem="rzT-OM-nM2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tB4-v4-iHx"/>
+                            <constraint firstAttribute="trailing" secondItem="urR-PD-Yb0" secondAttribute="trailing" constant="10" id="yRx-9X-93q"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="cameraSegment" destination="G3i-qa-Rwy" id="q1R-Xp-eVX"/>
+                        <outlet property="previewView" destination="rzT-OM-nM2" id="wQY-h7-gNd"/>
+                        <outlet property="testView" destination="pdY-ld-sHM" id="WDF-xX-LIR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="34.859154929577464"/>
+        </scene>
+    </scenes>
+</document>
