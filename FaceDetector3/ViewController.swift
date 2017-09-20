@@ -12,6 +12,7 @@ import AVFoundation
 import Starscream
 
 let kSocketUrl:String = "https://192.168.202.124:9000"
+let kTest:String = "String"
 
 class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, AVCaptureVideoDataOutputSampleBufferDelegate, WebSocketDelegate {
     
